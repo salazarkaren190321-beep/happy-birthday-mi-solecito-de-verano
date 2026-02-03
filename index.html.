@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Frasquito de Razones</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="frasquito-container">
+        <img src="frasquito.png" alt="Frasquito" class="frasquito">
+        <button id="clicBoton">Haz clic</button>
+    </div>
+    <div id="papelito" class="papelito"></div>
+
+    <audio id="sonidoClick" src="click.mp3"></audio>
+    <audio id="sonidoAbrir" src="abrir.mp3"></audio>
+    <audio id="sonidoPapel" src="papel.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html> 
